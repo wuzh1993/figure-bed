@@ -1,5 +1,5 @@
 # Ignore everything in this directory
-/pem/*.key
+# /pem/*.key
 /node_modules
 /public/log/*
 /static/images/*
