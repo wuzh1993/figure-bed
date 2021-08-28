@@ -28,7 +28,8 @@ npm install 或 yarn(推荐)
 mongoDB端口，数据库默认名称等请在/config/base.js中修改
 
 # 启动项目本地调试
-npm run dev
+npm run dev或者yarn dev 
+注意：该命令默认使用nodemon来启动程序 需要先安装nodemon，请执行npm install -g nodemon，不使用nodemon的话请自己修改package.json
 
 # 部署到测试环境
 npm run serve（会启动pm2来读取配置运行程序，详见package.json）
@@ -74,8 +75,11 @@ figure-bed
 
 # 在线预览
 
-http://www.wzhcode.com/drawbed
+地址：http://www.wzhcode.com:3001
 
+缩略图：![](http://www.wzhcode.com:3001/images/file-1630142871421.jpg)
 
+![](http://www.wzhcode.com:3001/images/file-1630142875929.jpg)
 
 登录即自动注册
+
