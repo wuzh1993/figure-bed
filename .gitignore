@@ -1,0 +1,8 @@
+# Ignore everything in this directory
+/pem/*.key
+/node_modules
+/public/log/*
+/static/images/*
+
+private.key
+private.key.pub

@@ -1,0 +1,36 @@
+{
+  "name": "backProgram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=dev nodemon app",
+    "serve": "pm2 start ecosystem.config.js --env pro"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^3.1.0",
+    "@koa/multer": "^3.0.0",
+    "art-template": "^4.13.2",
+    "chalk": "^4.1.1",
+    "joi": "^17.4.1",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-art-template": "^1.1.1",
+    "koa-bodyparser": "^4.3.0",
+    "koa-compose": "^4.1.0",
+    "koa-mount": "^4.0.0",
+    "koa-router": "^10.0.0",
+    "koa-session": "^6.2.0",
+    "koa-static": "^5.0.0",
+    "log4js": "^6.3.0",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.13.0",
+    "multer": "^1.4.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
